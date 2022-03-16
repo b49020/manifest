@@ -10,7 +10,9 @@
 	<project path="googletest" name="google/googletest"        revision="main" />
 	<project path="qemu"       name="qemu/qemu.git"            revision="refs/tags/v6.2.0" clone-depth="1" />
 	<project path="linux"      name="torvalds/linux.git"       revision="refs/tags/v5.16" clone-depth="1" />
-	<project path="build"      name="jbech-linaro/build.git"   revision="fun_sim">
+	<project path="udmabuf"    name="ikwzm/udmabuf.git" />
+	<project path="fun_sim_app" name="b49020/fun_sim_app.git"  revision="main" />
+	<project path="build"      name="jbech-linaro/build.git"   revision="linux-qemu">
                 <linkfile src="Makefile"       dest="Makefile" />
         </project>
 
